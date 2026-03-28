@@ -3,8 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import {
   removeFromCart,
-  calculateTotal,
-  clearCart,
+  calculateTotal
 } from "../features/cart/cartSlice";
 
 import "./Cart.css";
