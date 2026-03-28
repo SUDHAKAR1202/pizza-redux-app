@@ -1,0 +1,64 @@
+.menu-container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Option buttons (Size + Crust) */
+.option-btn {
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.option-btn:hover {
+  background: #fff3e6;
+}
+
+/* Active selected */
+.option-btn.active {
+  background: #ff7a18;
+  color: white;
+  border: none;
+}
+
+/* Toppings */
+.toppings label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.add-btn {
+  margin-top: 10px;
+  padding: 12px 20px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #e66a10;
+}
